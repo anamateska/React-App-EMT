@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance=axios.create({
-    baseURL: 'https://git.heroku.com/spring-boot-anamateska.git',
+    baseURL: 'https://spring-boot-anamateska.herokuapp.com/api',
     headers: {
         'Access-Control-Allow-Origin' : '*'
     }
